@@ -109,3 +109,12 @@ p {
     background-size: 150%;
 }
 
+.eric {
+  width:125%;
+}
+
+@media (max-width: 800px) {
+  .eric {
+    width: inherit;
+  }
+}
